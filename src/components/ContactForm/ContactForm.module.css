@@ -1,0 +1,38 @@
+section {
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+input {
+  display: block;
+  font-size: 15px;
+  height: 40px;
+  width: 300px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 2px solid;
+}
+
+form > button {
+  display: block;
+  width: 200px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+li {
+    display: flex;
+    list-style: none;
+}
+
+p {
+  margin: 0;
+}
