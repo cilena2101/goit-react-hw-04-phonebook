@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
-import './ContactList.module.css';
+import PropTypes from "prop-types";
+import "./ContactList.module.css";
 
 export const ContactList = ({ contacts, deleteContact }) => (
   <ul>
@@ -19,13 +19,13 @@ export const ContactList = ({ contacts, deleteContact }) => (
 );
 
 ContactList.propTypes = {
-  contacts:PropTypes.arrayOf(
+  contacts: PropTypes.arrayOf(
     PropTypes.exact({
       name: PropTypes.string.isRequired,
       number: PropTypes.string.isRequired,
       id: PropTypes.string.isRequired,
     })
   ),
-  contact:PropTypes.string,
-  deleteContact: PropTypes.func.isRequired,   
-  };
+  contact: PropTypes.string,
+  deleteContact: PropTypes.func.isRequired,
+};
